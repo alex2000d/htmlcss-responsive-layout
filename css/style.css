@@ -3,3 +3,187 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    background-color: rgb(29, 155, 209);
+    color: #fff;
+    padding: 15px 0;
+}
+
+.container{
+    max-width: 100%
+   
+}
+
+.content-main{
+    background-color: rgb(173, 209, 29);
+    margin: 10px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 10px ;
+}
+
+.content-main-big{
+    background-color: rgb(29, 209, 56);
+    margin: 10px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 10px ;
+}
+
+.content-planner{
+    background-color: rgb(151, 146, 228);
+    margin: 0 10px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+
+
+.content-planner-right{
+    background-color:white;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 10px;
+    margin-bottom: 10px;
+ 
+}
+
+.container-strategic-planner{
+    max-width: 100%;
+}
+
+
+.content-benefits{
+    background-color: rgb(29, 176, 209);
+    margin: 10px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 10px ;
+}
+
+.content-testimonials{
+    background-color:rgb(151, 146, 228);
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.content-about-us{
+    background-color:#fff;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.content-get-started{
+    background-color:rgb(151, 146, 228);
+    height: 100px;
+    border: 1px solid black;
+}
+
+.content-footer{
+    background-color:rgb(31, 31, 31);
+    height: 50px;
+    
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-col-50{
+    width: 50%;
+}
+
+.col-66{
+    width: 100%;
+}
+
+.col-33{
+    width: 100%;
+}
+
+.col-50{
+    width: 100%;
+}
+
+.col-25{
+    width: 100%;
+}
+
+.col-100{
+    width: 100%;
+}
+
+.col-33-testimonials{
+    width: 100%;
+}
+
+.col-33-benefits{
+    width: 100%;
+}
+
+/* utility classes */
+
+.float-end{
+    float: right;
+}
+
+.ml-10{
+    margin-left: 10px;
+}
+
+.mr-10{
+    margin-right: 10px;
+}
+
+.bg-viola{
+    background-color: rgb(151, 146, 228);
+}
+
+.bg-black{
+    background-color: rgb(31, 31, 31);
+}
+/* media query */
+
+@media screen and (min-width: 768px) {
+    .col-66{
+        width: calc(100% / 3 * 2);
+    }
+
+    .col-33{
+        width: calc(100% / 3)
+    }
+
+    .col-33-benefits{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container{
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .container-strategic-planner{
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .content-planner-right{
+        float: right;
+        width: 150px;
+    }
+
+    .col-33-benefits{
+        width: calc(100% / 3);
+    }
+
+    
+}
