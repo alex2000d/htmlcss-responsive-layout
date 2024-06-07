@@ -73,17 +73,27 @@ header{
 
 
 .content-benefits{
-    background-color: rgb(29, 176, 209);
+    background-color: #fff;
     margin: 10px;
-    height: 100px;
+    
     border: 1px solid black;
     border-radius: 10px ;
 }
 
 .content-testimonials{
     background-color:rgb(151, 146, 228);
-    height: 100px;
+    
     border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.content-testimonials-one{
+    
+    
+   
     border-radius: 10px;
     margin: 0 10px;
     margin-bottom: 10px;
@@ -92,19 +102,24 @@ header{
 
 .content-about-us{
     background-color:#fff;
-    height: 100px;
-    border: 1px solid black;
+    
+}
+
+.content-about-us img{
+    width: 80%;
+    height: 80%;
+    margin-left: 20px;
 }
 
 .content-get-started{
     background-color:rgb(151, 146, 228);
-    height: 100px;
-    border: 1px solid black;
+    
+    ;
 }
 
 .content-footer{
     background-color:rgb(31, 31, 31);
-    height: 50px;
+    
     
 }
 
@@ -130,7 +145,13 @@ header{
     
 }
 
+.col-70{
+    width: 100%;
+}
 
+.col-30{
+    width: 100%;
+}
 
 .col-25{
     width: 100%;
@@ -144,9 +165,25 @@ header{
     width: 100%;
 }
 
+.col-33-testimonials-one{
+    width: 100%;
+}
+
 .col-33-benefits{
     width: 100%;
 }
+
+.content-testimonials img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover; 
+    
+}
+
+ 
+
+
+
 
 /* utility classes */
 
@@ -207,6 +244,15 @@ header{
     padding-right: 70px;
 }
 
+.pd-20{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.mr-5{
+    margin-right: 5px;
+}
+
 .bg-blu{
     background-color: rgb(29, 176, 209);
     color: #fff;
@@ -243,6 +289,40 @@ header{
 .ml-90{
     margin-left: 90px;
 }
+
+.color-viola{
+    color: rgb(151, 146, 228);
+}
+
+.circular-square{
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.vertical-align{
+    vertical-align:baseline;
+}
+
+.pd-30{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.color-gray{
+    color: lightgray;
+}
+
+.color-yellow{
+    color: rgb(255, 202, 8);
+}
+
+.bg-white{
+    background-color: #fff;
+}
+
+.pd-25{
+    padding: 20px;
+}
 /* media query */
 
 @media screen and (min-width: 768px) {
@@ -268,6 +348,21 @@ header{
 
     .font-size-code{
         font-size: 39px;
+    }
+
+    .col-33-testimonials img{
+        width: 18%;
+        height: 100%;
+       
+
+    }
+
+    .col-70{
+        width: 70%;
+    }
+
+    .col-30{
+        width: 30%;
     }
 }
 
@@ -320,6 +415,23 @@ header{
     .col-50{
         width: 50%;
     }
+
+    .col-70{
+        width: 70%;
+    }
+
+    .col-30{
+        width: 30%;
+    }
+
+    .col-33-testimonials img{
+        width: 18%;
+        height: 100%;
+        position: relative;
+        float: left;
+        vertical-align: middle;
+    }
+    
 
     
 }
